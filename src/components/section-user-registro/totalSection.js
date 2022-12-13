@@ -6,7 +6,7 @@ import { buttonCreator } from '../../components/button/button.js'
 
 const totalSectionOp = ()=>{
 
-    const encabezado = encaCreator('Registor Usuario - Empresa', '"https://imgs.search.brave.com/hQBL65WnYaChAtTTIu4r_QOAL9VGa0eDLnOb4wAYvH4/rs:fit:840:562:1/g:ce/aHR0cHM6Ly93d3cu/cGlrcG5nLmNvbS9w/bmdsL20vNTIxLTUy/MTkzODRfZXF1aXMt/c3RpY2tlci1zdmct/aWNvbi1jbG9zZS1j/bGlwYXJ0LnBuZw"')
+    const encabezado = encaCreator('Registor Usuario - Empresa')/*, 'https://imgs.search.brave.com/6qhMR1Aw9nsEP5rgfTySp-8ddBIscTUWEjnUFItY1lE/rs:fit:320:320:1/g:ce/aHR0cHM6Ly9jcG5n/LnBpa3BuZy5jb20v/cG5nbC9zLzUyMS01/MjE5Mzg0X2VxdWlz/LXN0aWNrZXItc3Zn/LWljb24tY2xvc2Ut/Y2xpcGFydC5wbmc'*/
 
     const section1 = sectionOne()
     const section2 = sectionTwo()
