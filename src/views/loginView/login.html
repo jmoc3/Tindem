@@ -8,21 +8,41 @@
     <title>Log in</title>
 </head>
 
+
 <body>
-    <section class="left">
-        <div class="logo"></div>
-        <h1 class="title">TINDEM</h1>
-        <div class="data">
-            <div class="user">Usuario</div>
-            <div class="pass">Contraseña</div>
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <div class="content-modal">
+            <div class="card">
+                <div class="image"></div>
+                <h1>Como aspirante</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium laboriosam vero repellendus ad nam incidunt natus optio eligendi, laudantium ducimus reprehenderit in alias eaque aspernatur consectetur tempora dignissimos recusandae maiores?</p>
+                <button class="button-modal">Continuar</button>
+            </div>
+            <div class="card">
+                <div class="image"></div>
+                <h1>Como empresa</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium laboriosam vero repellendus ad nam incidunt natus optio eligendi, laudantium ducimus reprehenderit in alias eaque aspernatur consectetur tempora dignissimos recusandae maiores?</p>
+                <button class="button-modal">Continuar</button>
+            </div>
         </div>
-        <button type="button">Ingresar</button>
-        <div class="register"><i>Registrarse</i></div>
-    </section>
-    <section class="right">
-        <div class="logo"></div>
-        <div class="phrase"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, temporibus.</div>
-    </section>
-    
+    </div>
+    <main>
+        <section class="left">
+            <div class="logo"></div>
+            <h1 class="title">TINDEM</h1>
+            <div class="data">
+                <div class="user">Usuario</div>
+                <div class="pass">Contraseña</div>
+            </div>
+            <button type="button" class="button-login">Ingresar</button>
+            <button type="button" id="register" class="register"><i>Registrarse</i></div>
+        </section>
+        <section class="right">
+            <div class="logo"></div>
+            <div class="phrase"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, temporibus.</div>
+        </section>
+    </main>   
 </body>
+<script src="login.js"></script>
 </html>
