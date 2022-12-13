@@ -73,6 +73,6 @@ buttoncito.forEach(element => {
 });
 
 const buttonSend = document.querySelector(".buttonSend").addEventListener("click",()=>{
-    window.location = "../../mainView/Aspirante/index.html"
+    window.location = "../../mainView/empresa/company.html"
 })
 
