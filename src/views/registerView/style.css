@@ -1,5 +1,16 @@
-.modal{
+.template{
     display: flex;
+}
+.block{
+    display: flex;
+    width: 100%;
+    height: 97vh;
+    align-items: center;
+    position: fixed;
+}
+.modal{
+    display: none;
+    position: fixed;
     width: 100%;
     height: 97vh;
     align-items: center;
@@ -49,4 +60,76 @@
 .text{
     margin-top: -10px;
     margin-bottom: 50px;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    border:solid black 1px;   
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    width: 600px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border:solid black 1px; 
+    width: 200px;
+    height: 100px;
+}
+.conPerfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10px;
+    
+    width: 200px;
+}
+.divPerfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height:60px;
+    border:solid 1px black;
+    
+}
+.pPerfil{
+    text-align: center;  
+}
+.rigth{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.btns{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    cursor: pointer;
+}
+label{
+    margin: 5px 5px
+}
+.birth{
+    text-align: center;
+}
+.interes{
+    cursor:pointer;
+    margin-top: 15px ;
 }

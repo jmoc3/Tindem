@@ -1,9 +1,19 @@
 const info = ["Comunicación social","Administracion de empresas","Contaduria publica","Finanzas y negocios internacionales","Mercadeo y publicidad","Administracion de servicios salud","Administracion logistica","Ingenieria de sistemas","Chef","Servicios generales","Seguridad","Guardia de seguridad"]
 /* llamar al div general */
+import {register} from "./index.js"
+
+
+
+const template = document.createElement("div")
+template.classList = "template"
+template.appendChild(register())
+
 const app = document.querySelector("#app")
+app.appendChild(template)
 /* crear contenedores generales y asignarles sus clases*/
 const modal = document.createElement("div")
 modal.classList = "modal"
+modal.id = "modal"
 const general = document.createElement("div")
 general.classList = "general"
 /* crear elemento head, su clase y sus elementos*/
@@ -37,7 +47,7 @@ button.type = "button"
 button.innerText = "Enviar"
 
 /* Añadir al documento los elementos creados */
-app.appendChild(modal)
+template.appendChild(modal)
 modal.appendChild(general)
 general.appendChild(head)
 head.appendChild(h1)
@@ -52,14 +62,6 @@ h1.innerText = "Cuentanos más sobre ti"
 p.innerText = "Areas de intereses laborales"
 
 
-/* <div class="modal">
-            <div class="general">
-                <div class="footer">
-                    <button class="buttonSend">Enviar</button>
-                </div>
-            </div>
-        </div> */
-
 
 const buttoncito = document.querySelectorAll(".buttoncito")
 
@@ -73,3 +75,4 @@ buttoncito.forEach(element => {
 const buttonSend = document.querySelector(".buttonSend").addEventListener("click",()=>{
     window.location = "../mainView/index.html"
 })
+
