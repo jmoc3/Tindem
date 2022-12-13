@@ -126,3 +126,44 @@ h2{
 
 }
 
+.modalContainer {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+ }
+  
+ .modalContainer .modalContent {
+    background-color: darkgrey;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #6927a7;
+ }
+  
+ .modalContainer .close{
+    color: red;
+    float: right;
+    font-size: 26px;
+    font-weight: bold;
+ }
+  
+ .modalContainer .close:hover .close:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+ }
+  
+ .modalContainer .modalContent .carrera{
+    border: 1px solid ;
+ }
+  
+ .modalContainer .modalContent .father{
+    display: flex;
+ }
+ 
+
