@@ -43,7 +43,7 @@ const footerModal = document.createElement("div")
 footerModal.classList = "footer"
 const button = document.createElement("button")
 button.classList = "buttonSend"
-button.type = "button"
+button.type = " button"
 button.innerText = "Enviar"
 
 /* Añadir al documento los elementos creados */
@@ -73,6 +73,6 @@ buttoncito.forEach(element => {
 });
 
 const buttonSend = document.querySelector(".buttonSend").addEventListener("click",()=>{
-    window.location = "../mainView/index.html"
+    window.location = "../../mainView/Aspirante/index.html"
 })
 
