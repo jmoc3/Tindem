@@ -4,6 +4,69 @@ body{
     box-sizing: border-box;
 }
 
+.Navbar{
+    height: 80px;
+    position: absolute;
+}
+
+.container2{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    line-height: 80px;
+    z-index: 100;
+}
+
+.links .link{
+    display: inline-block;
+}
+
+.links .link a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Helvetica';
+    font-size: 30px;
+    text-align: center;
+    margin: 0 35px;
+    padding-left: 120px;
+    letter-spacing: 3px;
+    transition: .3s;
+}
+
+.links .link a:hover{
+    color: gray;
+}
+
+@media screen and (max-width: 800px){
+    .toogle{
+        display: inline-block;
+    }
+    .links{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        height: calc(100vh - 80px);
+        width: 100%;
+        z-index: -1;
+        top: -100vh;
+    }
+
+    .links .link:hover{
+        background-color: #051c38;
+    }
+}
+
+.line{
+    top: 10%;
+    position: absolute;
+    height: .5%;
+    inline-size: 100%;
+    background-color: black;
+}
+
 .ProfileImage img{
     width: 350px;
 }
@@ -13,7 +76,7 @@ body{
     position: absolute;
     justify-content: center;
     display: flex;
-    margin: 100px 0 0 180px;
+    margin: 250px 0 0 180px;
     padding-right: 10px;
     width: 30vh;
 }
@@ -24,10 +87,11 @@ body{
     }
 }
 
+/*Contenedor de la derecha*/
 .datosUsuario{
     border: 1.3333333333333333px solid black;
     position: absolute;
-    margin: 80px 0 0 580px;
+    margin:210px 0 0 580px;
     padding: 20px 0 0 15px;
     width: 46vh;
 }
@@ -116,6 +180,10 @@ body{
     padding-right: 60px;
 }
 
+.SegundoTitulo{
+    font-family: 'Helvetica';
+}
+
 .descripcionPerfil{
     border: 1.3333333333333333px solid black;
     width: 85%;
@@ -125,19 +193,16 @@ body{
     font-family: 'Helvetica';
 }
 
-.SegundoTitulo{
-    font-family: 'Helvetica';
-}
-
 .redesSociales{
     position: absolute;
-    margin: 580px 0 0 170px;
+    margin: 730px 0 0 170px;
 }
 
 .logo{
     width: 150px;
     margin: 0 40px 15px 0;
     border-radius: 60px;
+    cursor: pointer;
 }
 
 .facebook{
@@ -152,7 +217,7 @@ body{
 }
 
 .likeDislike{
-    margin: 620px 0 0 800px;
+    margin: 770px 0 0 800px;
     position: absolute;
     font-family: 'Helvetica';
     font-size: 20px;
@@ -168,6 +233,16 @@ body{
     margin-left: 10px;
     padding: 30px;
     background-color: #ff7373;
+}
+
+.boton1:hover{
+    background-color: red;
+    transition: 1s;
+}
+
+.boton2:hover{
+    background-color: rgb(5, 173, 5);
+    transition: 1s;
 }
 
 .boton2{
