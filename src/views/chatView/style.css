@@ -65,7 +65,7 @@ body {
 
 .chat-one{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 1vh;
     border-bottom: solid 2px black;
@@ -75,6 +75,7 @@ body {
     background-color: #737874;
     margin: 1vh;
     padding: 1vh;
+    border-radius: 5px;
 }
 
 .photo-chat{
@@ -94,6 +95,10 @@ body {
     width: 8vw;
     text-align: center;
 }
+.setting-chat img{
+  width: 30%;
+}
+
 .chats{
     height: 95vh;
     border: solid 2px black;
