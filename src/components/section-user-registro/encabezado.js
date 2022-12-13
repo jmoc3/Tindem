@@ -14,7 +14,7 @@ export const encaCreator = (textTitle,url)=>{
 
     const parent = document.createElement('div')
     parent.appendChild(title)
-    parent.appendChild(equis)
+    /* parent.appendChild(equis) */
     parent.className="padreEnc"
 
     return parent
