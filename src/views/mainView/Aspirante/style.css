@@ -12,8 +12,7 @@ body{
     border: 1.3333333333333333px solid black;
     position: absolute;
     display: flex;
-    font-family: 'Helvetica';
-    margin: 80px 0 0 50px;
+    margin: 100px 0 0 180px;
     padding-right: 10px;
     width: 18%;
 }
@@ -21,58 +20,143 @@ body{
 .datosUsuario{
     border: 1.3333333333333333px solid black;
     position: absolute;
-    margin: 50px 0 0 450px;
+    margin: 80px 0 0 580px;
     padding: 20px 0 0 15px;
-    width: 36%;
+    width: 46%;
 }
 
 .nombre{
     position: absolute;
     font-weight: bold;
+    font-family: 'Helvetica';
 }
 
 .nombreUsuario{
     position: absolute;
-    padding: 15px 0 0 80px;
-    
+    padding: 15px 0 0 100px;
+    font-family: 'Helvetica';
 }
 
 .edad{
     position: absolute;
     padding: 28px 0 0 0;
     font-weight: bold;
+    font-family: 'Helvetica';
 }
 
 .edadUsuario{
     position: absolute;
-    padding: 42px 0 0 58px;
+    padding: 42px 0 0 78px;
+    font-family: 'Helvetica';
 }
 
 .PrimerTitulo{
     position: absolute;
     padding-top: 50px;
+    font-family: 'Helvetica';
 }
 
 .AreasLaborales{
     border: 1.3333333333333333px solid black;
     width: 85%;
     margin: 115px 0 0 15px;
-    background-color: rgb(179, 178, 178);
-    padding-bottom: 100px;
+    background-color: rgb(207, 206, 206);
+    font-family: 'Helvetica';
+}
+
+.area1{
+    border-radius: 4px;
+    margin: 10px 0 0 10px;
+    padding-right: 120px;
+}
+
+.area2{
+    border-radius: 4px;
+    margin-left: 10px;
+    padding-right: 40px;
+}
+
+.area3{
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.area4{
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.area5{
+    border-radius: 4px;
+    margin-left: 10px;
+    padding-right: 50px;
+}
+
+.area6{
+    border-radius: 4px;
+    margin: 15px 0 20px 0;
+    margin-left: 20px;
+    padding-right: 60px;
 }
 
 .descripcionPerfil{
     border: 1.3333333333333333px solid black;
     width: 85%;
-    margin: 0 0 35px 6px;
-    background-color: rgb(179, 178, 178);
-    padding: 10px 5px 40px 10px;
+    margin: 0 0 35px 10px;
+    background-color: rgb(207, 206, 206);
+    padding: 10px 0px 40px 20px;
+    font-family: 'Helvetica';
+}
+
+.SegundoTitulo{
+    font-family: 'Helvetica';
+}
+
+.redesSociales{
+    position: absolute;
+    margin: 580px 0 0 170px;
+}
+
+.logo{
+    width: 150px;
+    margin: 0 40px 15px 0;
+    border-radius: 60px;
+}
+
+.facebook{
+    width: 80px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.instagram{
+    width: 110px;
+    cursor: pointer;
 }
 
 .likeDislike{
-    margin: 550px 0 0 700px;
+    margin: 620px 0 0 800px;
+    position: absolute;
+    font-family: 'Helvetica';
+    font-size: 20px;
 }
 
-.likeDislike button{
+.like{
+    margin:50px 0 0 50px;
+}
+
+.boton1{
+    cursor: pointer;
     border-radius: 50px;
+    margin-left: 10px;
+    padding: 30px;
+    background-color: #ff7373;
+}
+
+.boton2{
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 10px;
+    padding: 30px;
+    background-color: #CCFFCC;
 }
