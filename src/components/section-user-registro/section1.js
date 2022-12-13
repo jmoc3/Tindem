@@ -1,4 +1,4 @@
-import { input } from '../../components/input/input.js'
+import { inputCreator } from '../../components/input/input.js'
 
 const sectionOne =()=>{
 
@@ -15,16 +15,19 @@ const sectionOne =()=>{
 
     const label1 = document.createElement('label')
     label1.textContent="Correo Electronico"
+    const input1 = inputCreator()
+
     const label2 = document.createElement('label')
     label2.textContent ="Contraseña"
+    const input2 = inputCreator()
 
     const inputsLabel1 = document.createElement('div')
     inputsLabel1.appendChild(label1)
-    inputsLabel1.appendChild(input)
+    inputsLabel1.appendChild(input1)
 
     const inputsLabel2 = document.createElement('div')
     inputsLabel2.appendChild(label2)
-    inputsLabel2.appendChild(input)
+    inputsLabel2.appendChild(input2)
 
     const div2 = document.createElement('div')
     div2.appendChild(inputsLabel1)
