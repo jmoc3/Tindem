@@ -11,11 +11,11 @@ body{
 .ProfileImage{
     border: 1.3333333333333333px solid black;
     position: absolute;
-    grid-template-columns: auto auto auto;
+    justify-content: center;
     display: flex;
     margin: 100px 0 0 180px;
     padding-right: 10px;
-    width: 18%;
+    width: 30vh;
 }
 
 @media only screen and (min-width:300px){
@@ -29,7 +29,7 @@ body{
     position: absolute;
     margin: 80px 0 0 580px;
     padding: 20px 0 0 15px;
-    width: 46%;
+    width: 46vh;
 }
 
 @media only screen and (min-width:300px){
@@ -79,30 +79,34 @@ body{
 
 .area1{
     border-radius: 4px;
-    margin: 10px 0 0 10px;
-    padding-right: 120px;
+    margin: 10px 0 0 20px;
+    padding-right: 100px;
 }
 
 .area2{
     border-radius: 4px;
     margin-left: 10px;
     padding-right: 40px;
+    margin-top: 10px;
 }
 
 .area3{
     border-radius: 4px;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .area4{
     border-radius: 4px;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .area5{
     border-radius: 4px;
     margin-left: 10px;
     padding-right: 50px;
+    margin-top: 10px;
 }
 
 .area6{
