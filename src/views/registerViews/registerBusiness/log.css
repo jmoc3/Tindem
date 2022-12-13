@@ -162,21 +162,24 @@ h2{
 /* Diseño del modal */
 
 .modalContainer {
+    
+    justify-content: center;
     display: none;
     position: fixed;
     z-index: 1;
     padding-top: 100px;
-    left: 0;
+    left: 25%; 
     top: 0;
     width: 50%;
     height: 100%;
-    overflow: auto;
+    overflow: auto; 
+
  }
 
 
   
  .modalContainer .modalContent {
-    background-color: antiquewhite;
+    background-color: white;
     margin: auto;
     padding: 25px;
     border: 1px solid #6927a7;
@@ -209,8 +212,13 @@ h2{
     width: 200px;
     padding: 20px;
     
+ }
 
-    
+ .buttonModalBusiness{
+    display: flex;
+    width: 100px;
+    margin-left: 40%;
+    background-color: chartreuse;
  }
 
 
