@@ -137,9 +137,11 @@ h2{
     height: 100%;
     overflow: auto;
  }
+
+
   
  .modalContainer .modalContent {
-    background-color: darkgrey;
+    background-color: antiquewhite;
     margin: auto;
     padding: 25px;
     border: 1px solid #6927a7;
@@ -164,6 +166,19 @@ h2{
   
  .modalContainer .modalContent .father{
     display: flex;
+    padding: 20px;
+    gap : 20px;
  }
+
+ .modalContainer .modalContent .father .carrera{
+    width: 200px;
+    padding: 20px;
+    
+
+    
+ }
+
+
+ 
  
 
