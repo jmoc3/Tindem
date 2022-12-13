@@ -1,0 +1,207 @@
+/*Default*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Header*/
+.header {
+    display: flex;
+    width: 100%;
+    border: 1px solid #000;
+}
+/*Nav*/
+.nav li {
+    display: inline-block;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: all .4s;
+}
+.nav li > a{
+    color: #000;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+/*Contenedor general*/
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+/*Contenedores Izquierda*/
+.contLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100vh;
+}
+.contProfileImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+    /*Para alinear logos Horizontal x Vertical*/
+.contLogos {
+    width: 70%;
+    height: 20%;
+}
+.contLogos ul,li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+}
+
+/*Contenedores Derecha*/
+.contRight {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.contInfoCompany {
+    display: flex;
+    flex-direction: column;
+    /*Alinear por justificado vertical*/
+    /*justify-content: space-evenly;*/
+    /*Sin 100% al height (Machetazos para que quede como la maqueta .-.)*/
+    height: 100%;
+    width: 95%;
+    /*Gapsito machetazo*/
+    gap: 35px;
+}
+
+/*Contenido Información Empresa*/
+    .contBasicInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        width: 100%;
+        padding-left: 10px;
+        height: 100%;
+        gap: 10px;
+    }
+    .regularInfo{
+        display: flex;
+        width: 100%;
+    }
+    .regularInfo p {
+        font-size: 1.4rem;
+        font-weight: bold;;
+    }
+    .regularInfo .companyFont{
+        font-weight: normal;
+        margin-left: 20px;
+    }
+    /*Contenedor de perfil profesional*/
+    .contSkill {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding-left: 10px;
+        height: 100%;
+        gap: 10px;
+    }
+    .skills {
+        background-color: #d3d3d3;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+        border: 1px solid #000;
+    }
+    /*Pruebas de espacio con flex wrap*/
+    .profileSkill {
+        display: flex;
+        flex-grow: 1;
+        width: 700px;
+        height: 40px;
+        margin: 5px;
+        border: 1px solid #000;
+        background-color: #f6f6f6;
+        border-radius: 5px;
+    }
+    .profileSkillT{
+        display: flex;
+        /*La magia del grow*/
+        flex-grow: 1;
+        width: 400px;
+        height: 40px;
+        margin: 5px;
+        border: 1px solid #000;
+        background-color: #f6f6f6;
+        border-radius: 5px;
+    }
+    .profileSkill, .profileSkillT, .skillText{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+    
+    /*Contenedor de descripción*/
+    .contDescript {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding-left: 10px;
+        height: 100%;
+        gap: 10px;
+    }
+    .description {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #000;
+        background-color: #d3d3d3;
+    }
+
+/*Contenedor Botones*/
+/*Para alinear logos Horizontal x Vertical*/
+.contSelectBtn {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 20%;
+}
+.logoSelect {
+    display: flex;
+    /*Machetazo certero con el GAP B)*/
+    /*gap: 30px;*/
+    /*Ugh, buenas practicas*/
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+/*Imagenes*/
+.contProfileImg .profileImg {
+    width: 80%;
+    border: 1px solid #000;
+}
+.contLogos li .socialLink > .social {
+    width: 40px;
+}
+.logoSelect .logo {
+    width: 50px;
+}
+
+/*Animaciones Nav*/
+.nav li:hover {
+    transform: scale(1.1);
+    border: 1px dashed black;
+    transition: all .3s;
+}

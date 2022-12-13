@@ -1,0 +1,135 @@
+.template{
+    display: flex;
+}
+.block{
+    display: flex;
+    width: 100%;
+    height: 97vh;
+    align-items: center;
+    position: fixed;
+}
+.modal{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 97vh;
+    align-items: center;
+}
+.general{
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 35px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 1 / 4 / 2 / 5; }
+    .div5 { grid-area: 2 / 1 / 3 / 2; }
+    .div6 { grid-area: 2 / 2 / 3 / 3; }
+    .div7 { grid-area: 2 / 3 / 3 / 4; }
+    .div8 { grid-area: 2 / 4 / 3 / 5; }
+    .div9 { grid-area: 3 / 1 / 4 / 2; }
+    .div10 { grid-area: 3 / 2 / 4 / 3; }
+    .div11 { grid-area: 3 / 3 / 4 / 4; }
+    .div12 { grid-area: 3 / 4 / 4 / 5; }
+
+.buttoncito{
+    width: 100%;
+    height: 10vh;
+}
+.buttoncitoClick{
+    background-color: rgba(0, 0, 255, 0.46);
+}
+.footer{
+    text-align: center;
+    margin-top: 35px;
+}
+.buttonSend{
+    background-color: rgba(255, 0, 0, 0.44);
+    height: 5vh;
+    width: 150px;
+}
+.text{
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    border:solid black 1px;   
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    width: 600px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border:solid black 1px; 
+    width: 200px;
+    height: 100px;
+}
+.conPerfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10px;
+    
+    width: 200px;
+}
+.divPerfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height:60px;
+    border:solid 1px black;
+    
+}
+.pPerfil{
+    text-align: center;  
+}
+.rigth{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.btns{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    cursor: pointer;
+}
+label{
+    margin: 5px 5px
+}
+.birth{
+    text-align: center;
+}
+.interes{
+    cursor:pointer;
+    margin-top: 15px ;
+}
