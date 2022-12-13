@@ -8,6 +8,7 @@ main{
     height: 100%;
     padding: 20px;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
 }
 
@@ -77,9 +78,10 @@ input{
 
 .button-login{
     padding: 10px;
-    background-color: #DAE8FC;
-    border: 1px solid   rgb(35, 26, 87);
-    border-radius: 0.5rem;
+    background-color: black;
+    border: 1px solid   black;
+    color: white;
+    border-radius: 1rem;
     font-weight: bold;
     width: 75%;
     margin-bottom: 20px;
@@ -143,9 +145,10 @@ input{
 .button-modal{
     padding: 10px;
     margin-top: 30px;
-    background-color: #DAE8FC;
+    color: white;
+    background-color: black;
     border: 1px solid   rgb(35, 26, 87);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     font-weight: bold;
     margin-bottom: 20px;
     font-size: 10px;
@@ -161,6 +164,7 @@ p{
     float: right;
     font-size: 28px;
     font-weight: bold;
+    margin-left: 10px;
 }
 
 .close:hover,.close:focus {
