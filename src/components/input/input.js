@@ -1,5 +1,5 @@
 
-const inputCreator=()=>{
+export const inputCreator=()=>{
 
     console.log("hola")
 
@@ -8,4 +8,3 @@ const inputCreator=()=>{
     return input
 
 }
-export const input = inputCreator()
