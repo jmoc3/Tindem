@@ -11,10 +11,17 @@ body{
 .ProfileImage{
     border: 1.3333333333333333px solid black;
     position: absolute;
+    grid-template-columns: auto auto auto;
     display: flex;
     margin: 100px 0 0 180px;
     padding-right: 10px;
     width: 18%;
+}
+
+@media only screen and (min-width:300px){
+    .ProfileImage img{
+        width: 100%;
+    }
 }
 
 .datosUsuario{
@@ -23,6 +30,12 @@ body{
     margin: 80px 0 0 580px;
     padding: 20px 0 0 15px;
     width: 46%;
+}
+
+@media only screen and (min-width:300px){
+    .datosUsuario{
+        width: 47%;
+    }
 }
 
 .nombre{

@@ -33,13 +33,14 @@ body{
     inline-size: 100%;
     background-color: aliceblue;
     padding: 1.5rem 3rem;
-    gap: 4rem;
+    gap: 3rem;
+    overflow: auto;
 
 }
 
 .padre h1{
 
-    font-size: 80px;
+    font-size: 56px;
     border-bottom: thick solid black;
 
 }
@@ -70,7 +71,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 4rem;
+    gap: 2rem;
+    inline-size: 50%;
     
 }
 
@@ -86,14 +88,14 @@ body{
 
 .emailLabel{
 
-    font-size: 50px;
+    font-size: 30px;
 
 }
 
 input{
 
     inline-size: 100%;
-    font-size: 40px;
+    font-size: 18px;
     padding: 1rem;
 
 }
@@ -101,13 +103,13 @@ input{
 
 .pswLabel{
 
-    font-size: 50px;
+    font-size: 30px;
 
 }
 
 .section-2{
 
-    margin-top: 5rem;
+    margin-top: 3rem;
 
 }
 
@@ -115,16 +117,49 @@ input{
 
     display: grid;
     gap: 3.5rem;
+    inline-size: 50%;
 
 }
 
 h2{
 
-    font-size: 50px;
+    font-size: 38px;
     border-bottom: thick solid black;
 
 
 }
+
+.contDesc{
+
+    inline-size: 100%;
+    block-size: 9rem;
+
+}
+
+.desc{
+
+    inline-size: 100%;
+    block-size: 100%;
+
+}
+
+.interestButton{
+
+    inline-size: fit-content;
+    margin: 0 auto;
+    padding: 1rem;
+    border: thick solid green;
+    background-color: rgb(130, 228, 130);
+
+}
+
+.interestButton:hover{
+
+    cursor: pointer;
+
+}
+
+/* Diseño del modal */
 
 .modalContainer {
     display: none;
