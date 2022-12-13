@@ -214,6 +214,13 @@ h2{
     
  }
 
+ .buttonModalBusiness{
+    display: flex;
+    width: 100px;
+    margin-left: 40%;
+    background-color: chartreuse;
+ }
+
 
  
  
