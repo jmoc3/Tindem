@@ -55,6 +55,9 @@ img{
 .editar button{
     width: 100px;
     height: 30px;
+
+    margin-top: 60px;
+    margin-right: 60px;
     
 
 }
@@ -80,6 +83,63 @@ img{
     overflow: auto;
      
 
+}
+
+.Navbar{
+    margin-top: 45px;
+    height: 20px;
+    position: absolute;
+}
+.container2{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    line-height: 70px;
+    z-index: 100;
+}
+.links .link{
+    display: inline-block;
+}
+.links .link a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Helvetica';
+    font-size: 30px;
+    text-align: center;
+    margin: 0 35px;
+    padding-left: 120px;
+    letter-spacing: 3px;
+    transition: .3s;
+}
+.links .link a:hover{
+    color: gray;
+}
+@media screen and (max-width: 800px){
+    .toogle{
+        display: inline-block;
+    }
+    .links{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        height: calc(100vh - 80px);
+        width: 100%;
+        z-index: -1;
+        top: -100vh;
+    }
+    .links .link:hover{
+        background-color: #051c38;
+    }
+}
+.line{
+    top: 10%;
+    position: absolute;
+    height: .5%;
+    inline-size: 70%;
+    background-color: black;
 }
 
 
