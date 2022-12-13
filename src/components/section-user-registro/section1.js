@@ -1,7 +1,7 @@
 import { inputCreator } from '../../components/input/input.js'
 
 
-const sectionOne =()=>{
+export const sectionOne =()=>{
    
     const image = document.createElement('div')
     image.className = 'imageUser'
@@ -46,5 +46,4 @@ const sectionOne =()=>{
     
 }
 
-export const section1 = sectionOne()
 
