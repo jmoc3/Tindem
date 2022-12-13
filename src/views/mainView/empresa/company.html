@@ -8,6 +8,23 @@
     <link rel="stylesheet" href="company.css">
 </head>
 <body>
+    <header class="header">
+        <!--Logo - Si es que existe-->
+        <div class="logo"></div>
+        <nav>
+            <ul class="nav">
+                <li>
+                    <a href="#">Main</a>
+                </li>
+                <li>
+                    <a href="#">Profile</a>
+                </li>
+                <li>
+                    <a href="#">Chats</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <div class="container">
         <!--Contenedor de imagenes y logos // Izquierda-->
             <div class="contLeft">
@@ -17,13 +34,19 @@
                 <div class="contLogos">
                     <ul>
                         <li class="socialOne">
-                            <img class="social" src="img/gatoTamalHD.png" alt="logoInsano">
+                            <a href="#" class="socialLink">
+                                <img class="social left" src="img/gatoTamal.png" alt="logoInsano">
+                            </a>
                         </li>
                         <li class="socialTwo">
-                            <img class="social" src="img/gatoTamalHD.png" alt="logoInsano">
+                            <a href="#" class="socialLink">
+                                <img class="social middle" src="img/gatoTamal.png" alt="logoInsano">
+                            </a>
                         </li>
                         <li class="socialThree">
-                            <img class="social" src="img/gatoTamalHD.png" alt="logoInsano">
+                            <a href="#" class="socialLink">
+                                <img class="social right" src="img/gatoTamal.png" alt="logoInsano">
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -89,10 +112,14 @@
                 <div class="contSelectBtn">
                     <div class="rejectCont logoSelect">
                         <p>No me gusta</p>
-                        <img class="logo" src="img/reject.svg" alt="rejectLogo">
+                        <a href="#" class="rejectImage">
+                            <img class="logo" src="img/reject.png" alt="RejectIMG">
+                        </a>
                     </div>
                     <div class="confirmCont logoSelect">
-                        <img class="logo" src="img/confirm.svg" alt="ConfirmLogo">
+                        <a href="#" class="confirmImage">
+                            <img class="logo" src="img/confirm.png" alt="ConfirmIMG">
+                        </a>
                         <p>Me gusta</p>
                     </div>
                 </div>

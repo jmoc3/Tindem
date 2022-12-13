@@ -4,8 +4,28 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*Header*/
+.header {
+    display: flex;
+    width: 100%;
+    border: 1px solid #000;
+}
+/*Nav*/
+.nav li {
+    display: inline-block;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: all .4s;
+}
+.nav li > a{
+    color: #000;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
 /*Contenedor general*/
 .container {
     display: flex;
@@ -30,13 +50,14 @@
 }
     /*Para alinear logos Horizontal x Vertical*/
 .contLogos {
-    width: 50%;
+    width: 70%;
     height: 20%;
 }
 .contLogos ul,li {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    gap: 15px;
     height: 100%;
 }
 
@@ -171,9 +192,16 @@
     width: 80%;
     border: 1px solid #000;
 }
-.contLogos li > .social {
+.contLogos li .socialLink > .social {
+    width: 40px;
+}
+.logoSelect .logo {
     width: 50px;
 }
-.logoSelect > .logo {
-    width: 50px;
+
+/*Animaciones Nav*/
+.nav li:hover {
+    transform: scale(1.1);
+    border: 1px dashed black;
+    transition: all .3s;
 }
