@@ -133,3 +133,27 @@ label{
     cursor:pointer;
     margin-top: 15px ;
 }
+
+.titleGender{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.labelGender{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.btnGender{
+    
+    height: 10px;
+    border-radius: 2px;
+    border: 1px;
+    background-color: aliceblue;
+    border-color: red;
+    
+}

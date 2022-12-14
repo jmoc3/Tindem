@@ -8,10 +8,7 @@ export function register() {
     rigth.className = "rigth"
     divPadre.appendChild(rigth) 
 
-    //Registro
-    const h2 = document.createElement("h2")
-    left.appendChild(h2) 
-    h2.textContent = "Registro - Aspirante"
+   
 
     //imagen
     const divImg = document.createElement("div")
@@ -19,20 +16,7 @@ export function register() {
     divImg.textContent="Imagen-perfil"
     divImg.className = "img"
 
-    //Perfil
-    const perfil = document.createElement("div")
-    perfil.className = "conPerfil"
-    left.appendChild(perfil)
-    const p = document.createElement("p")
-    p.textContent="Descripcion Perfil"
-    perfil.appendChild(p) 
-    const pPerfil = document.createElement("p")
-    pPerfil.className = "pPerfil"
-    pPerfil.textContent = "Experiencia laboral, Educacion, competencoas humanas..."
-    const divPerfil = document.createElement("div")
-    divPerfil.className = "divPerfil"
-    divPerfil.appendChild(pPerfil)
-    perfil.appendChild(divPerfil)
+   
 
     //formulario
     const form = document.createElement("form") 
@@ -45,20 +29,8 @@ export function register() {
     const inputNom = document.createElement("input")
     form.appendChild(inputNom)
 
-    //botones
-    const btn = document.createElement("div")
-    form.appendChild(btn)
-    btn.className ="btns"
-    const  btnWomen = document.createElement("button")
-    btn.appendChild(btnWomen)
-    btnWomen.className ="btnW"
-    btnWomen.textContent = "Mujer"
-    const  btnMen = document.createElement("button")
-    btn.appendChild(btnMen)
-    btnMen.textContent = "Hombre"
-    const  btnOtro = document.createElement("button")
-    btn.appendChild(btnOtro)
-    btnOtro.textContent = "Otro"
+   
+    
 
     //cumpleaños
     const pBirth = document.createElement("label")
@@ -83,6 +55,77 @@ export function register() {
     const inputPassword = document.createElement("input")
     form.appendChild(inputPassword) 
     inputPassword.type ="password"
+
+    // aca empieza la parte de pao 
+
+     //botones
+    const labelBtn = document.createElement("label")
+    labelBtn.className = "titleGender"
+    left.appendChild(labelBtn)
+    labelBtn.textContent = "Identificacion de Genero"
+
+    const btn = document.createElement("div")
+    left.appendChild(btn)
+    btn.className ="btns"
+   //mujer 
+    const contentWoman = document.createElement("div")
+    btn.appendChild(contentWoman)
+    contentWoman.className = "contentWoman"
+
+    const  btnWoman = document.createElement("button")
+    contentWoman.appendChild(btnWoman)
+    btnWoman.className ="btnGender"
+
+    const textWoman = document.createElement("label")
+    textWoman.textContent = "Mujer"
+    contentWoman.appendChild(textWoman)
+    textWoman.className = "labelGender"
+
+    //hombre
+
+    const contentMen = document.createElement("div")
+    btn.appendChild(contentMen)
+    contentMen.className = "contentMen"
+
+    const  btnMen = document.createElement("button")
+    contentMen.appendChild(btnMen)
+    btnMen.className ="btnGender"
+
+    const textMen = document.createElement("label")
+    textMen.textContent = "Hombre"
+    contentMen.appendChild(textMen)
+    textMen.className = "labelGender"
+
+    //otro 
+    
+    const contentOtro = document.createElement("div")
+    btn.appendChild(contentOtro)
+    contentOtro.className = "contentOtro"
+
+    const btnOtro = document.createElement("button")
+    contentOtro.appendChild(btnOtro)
+    btnOtro.className = "btnGender"
+
+    const textOtro = document.createElement("label")
+    textOtro.textContent = "Otro"
+    contentOtro.appendChild(textOtro)
+    textOtro.className = "labelGender"
+   
+
+     //Perfil
+     const perfil = document.createElement("div")
+     perfil.className = "conPerfil"
+     left.appendChild(perfil)
+     const p = document.createElement("p")
+     p.textContent="Descripcion Perfil"
+     perfil.appendChild(p) 
+     const pPerfil = document.createElement("p")
+     pPerfil.className = "pPerfil"
+     pPerfil.textContent = "Experiencia laboral, Educacion, competencoas humanas..."
+     const divPerfil = document.createElement("div")
+     divPerfil.className = "divPerfil"
+     divPerfil.appendChild(pPerfil)
+     perfil.appendChild(divPerfil)
 
     //intereses
     const divInteres =  document.createElement("div")
